@@ -1,0 +1,21 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~', '~/.config']
+
+- link:
+    ~/.dotfiles_local: ''
+    ~/.config/Code/User/keybindings.json: config/Code/User/keybindings.json
+    ~/.config/Code/User/settings.json: config/Code/User/settings.json
+    ~/.config/Code/User/snippets: config/Code/User/snippets
+    ~/.config/texstudio/profile.TXS: config/texstudio/profile.TXS
+    ~/.gitconfig_local:
+    ~/.gvimrc:
+    ~/.shell/aliases_local.sh: shell/aliases_local.sh
+    ~/.ssh/config: ssh/config
+    ~/.vimrc_local:
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]

@@ -1,0 +1,21 @@
+{
+    "keyboard.dispatch": "keyCode",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+    "latex-workshop.view.pdf.invert": 0,
+    "latex-workshop.message.latexlog.exclude": [
+        "does not contain requested"
+    ],
+    "latex-workshop.chktex.enabled": true,
+    "latex-workshop.chktex.args.active": [
+        "-wall",
+        "-n22",
+        "-n30",
+        "-e16",
+        "-q",
+        "-n19"
+    ],
+    "editor.minimap.enabled": false,
+    "latex-workshop.view.pdf.trim": 3,
+    "workbench.startupEditor": "newUntitledFile",
+}

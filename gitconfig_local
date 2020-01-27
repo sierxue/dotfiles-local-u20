@@ -1,0 +1,6 @@
+[user]
+	name = your_GitHub_account_name
+	email = your_GitHub_email
+
+[github]
+	user = your_GitHub_account_name
